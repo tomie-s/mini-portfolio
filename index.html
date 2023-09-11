@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <section class="hero">
+    <img id="toggleTheme" class="theme-btn" src="assets/theme_light.png" alt="theme icon">
+    <div class="hero-pic">
+      <div class="inner-circle"></div>
+      <img src="assets/about-pic.png" alt="Tomi Salami">
+    </div>
+    <div class="hero-info">
+      <h1>Tomi Salami</h1>
+      <h2>Software Developer</h2>
+      <div class="logo-container">
+        <a href="https://github.com/tomie-s" target="_blank">
+          <img src="assets/github_light.png" alt="github logo">
+        </a>
+        <a href="https://www.linkedin.com/in/tomisalami/" target="_blank">
+          <img src="assets/linkedin_light.png" alt="linkedin logo">
+        </a>
+        <a href="mailto:salami.tomie@gmail.com" target="_blank">
+          <img src="assets/email_light.png" alt="email logo">
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="experience">
+    <h2><b>2</b><br>Years<br>Software development</h2>
+    <h2><b>5</b><br>Years<br>BBA &amp; MMIE</h2>
+    <h2><b>2</b><br>Developer<br>Certifications</h2>
+  </section>
+  <section class="cta">
+    <a href="assets/resume-developer.pdf" download>
+      <button class="btn download-btn">Download CV</button>
+    </a>
+    <a href="mailto:salami.tomie@gmail.com" target="_blank">
+      <button class="btn contact-btn">Contact Me</button>
+    </a>
+  </section>
+  <section class="portfolio-skills">
+    <div class="btn-bg">
+      <button id="portfolio-btn" class="btn-2 active-btn">Portfolio</button>
+      <button id="skills-btn" class="btn-2">Skills</button>
+    </div>
+  </section>
+  <section id="portfolio" class="portfolio">
+    <div class="wrapper project-wrapper">
+      <a href="https://anikkyskitchen.ca/" target="_blank">
+        <img src="assets/project-anikkyskitchen.jpg" alt="project anikky">
+      </a>
+    </div>
+    <div class="wrapper project-wrapper">
+      <a href="https://sheisfem.com/" target="_blank">
+        <img src="assets/project-sheisfem.jpg" alt="project sheisfem">
+      </a>
+    </div>
+    <div class="wrapper project-wrapper">
+      <a href="https://anikkyskitchen.ca/" target="_blank">
+        <img src="assets/project-anikkyskitchen.jpg" alt="project anikky">
+      </a>
+    </div>
+    <div class="wrapper project-wrapper">
+      <a href="https://sheisfem.com/" target="_blank">
+        <img src="assets/project-sheisfem.jpg" alt="project sheisfem">
+      </a>
+    </div>
+  </section>
+  <section id="skills" class="skills">
+    <div class="wrapper">
+      <h3>Software Development</h3>
+      <article class="software-skills">
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        <p>ReactJS</p>
+        <p>Ruby on Rails</p>
+        <p>PostgreSQL</p>
+        <p>AWS S3</p>
+      </article>
+    </div>
+    <div class="wrapper">
+      <h3>No-Code Development</h3>
+      <article class="nocode-skills">
+        <p>Bubble</p>
+        <p>API Integrations</p>
+        <p>Shopify</p>
+        <p>Zapier</p>
+        <p>Webflow</p>
+        <p>Parabola</p>
+        <p>Figma</p>
+      </article>
+    </div>
+  </section>
+  <footer><p>&copy; Tomi Salami 20223</p></footer>
+</body>
+</html>
